@@ -1,5 +1,5 @@
 # Challenges
-Place to hone your data science problem-solving skills !! ime to conquer the problems and shine. !!
+Place to hone your data science problem-solving skills !! time to conquer the problems and shine. !!
 
 ## Tools Used: 
 - Python : python3 , Seaborn , Matplotlib, pandas, Numpy
