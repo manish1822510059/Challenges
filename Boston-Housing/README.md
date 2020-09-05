@@ -7,6 +7,9 @@ The objective of the dataset is to predict the median value of owner-occupied ho
 
 Dataset Link : https://www.kaggle.com/c/boston-dataset/data
 
+### Evaluation Criteria
+Submissions are evaluated using RMSE Value
+
 ### Task 1: Load the Data and Import Libraries
 * Load the dataset using pandas.
 * Import essential modules and helper functions from NumPy and Matplotlib.
