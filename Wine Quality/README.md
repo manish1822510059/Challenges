@@ -9,7 +9,7 @@ Red wine is made with darker red or black grapes, and the skins remain on the gr
 
 ## Objective
 Predict the Quality of Red Wine.
-<hr>
+
 The wine connoisseurs in a wine factory in Portugal are debating on the quality of red and white wines. They thought to take the help of Data Science industry for this work. They hired you as a data scientist as you were the best data scientist in the world.
 
 ## About the dataset
