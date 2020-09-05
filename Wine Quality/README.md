@@ -1,13 +1,27 @@
 # Wine Quality
 Predicting the qaulity of Red Wine.
 
-### Objective:
-The objective of the dataset is to predict qaulity of Red  Wine.
+## Context 
+About Wine
 
+Wine is an alcoholic drink typically made from fermented grapes. Yeast consumes the sugar in the grapes and converts it to ethanol, carbon dioxide, and heat.
+Red wine is made with darker red or black grapes, and the skins remain on the grapes during the fermentation process.
+
+## Objective
+Predict the Quality of Red Wine.
+<hr>
+The wine connoisseurs in a wine factory in Portugal are debating on the quality of red and white wines. They thought to take the help of Data Science industry for this work. They hired you as a data scientist as you were the best data scientist in the world.
+
+## About the dataset
+The dataset is about red vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests. The dataset is related to red variant of the Portuguese "Vinho Verde" wine.
+
+## Evaluation Criteria
+Submissions are evaluated using Accuracy Score.
+
+## Reference :
 Dataset Link : https://archive.ics.uci.edu/ml/datasets/wine+quality
 
-### Evaluation Criteria
-Submissions are evaluated using Accuracy Score
+## Structure:
 
 ### Task 1: Load the Data and Import Libraries
 * Load the dataset using pandas.
@@ -24,30 +38,18 @@ Submissions are evaluated using Accuracy Score
 * Pandas functions used to analyse data
 
 ### Task 3: Splitting Training Dataset into Test and Train set 
-### Task 4: Train the model using Decision Tree 
-         - Check accuracy score on Test and Train set
-         - Visualise Result by ploting the graph of Predicted Values of Train and Test Set 
-         - Display Confusion Matrix and Classification Report
-### Task 5: Train the model using RandomForest 
-         - Check accuracy score on Test and Train set
-         - Visualise Result by ploting the graph of Predicted Values of Train and Test Set 
-         - Display Confusion Matrix and Classification Report
-### Task 6: Used Randomized Search-CV and Hperparameter tunning in Random Forest:
-           * Tried to increase Test set Accuracy.
-           * Display Confusion Matrix and Classification Report
-### Task 7: Train the model using Gradient Boost 
-             * Check accuracy score on Test and Train set
-             * Visualise Result by ploting the graph of Predicted Values of Train and Test Set
-             * Display Confusion Matrix and Classification Report
-### Task 8: Used Hperparameter tunning in Gradient Boost:
-              * Tried to increase Test set Accuracy.
-              *  Display Confusion Matrix and Classification Report
-### Task 9: Train the model using XG Boost 
-             * Check accuracy score on Test and Train set
-             * Visualise Result by ploting the graph of Predicted Values of Train and Test Set
-             *  Display Confusion Matrix and Classification Report
-### Task 10: Used Hperparameter tunning in XG Boost:
-              * Tried to increase Test set Accuracy. 
-              *  Display Confusion Matrix and Classification Report
-### Task 11: Prediction on TEST DATA and Check accuracy score of each model
-### Conclusion : Random Forset is giving best Accuracy on Test data, ie It is more accurate in predicting Red Wine Quality.
+### Task 4: Train the model using Various Algorithms and Ensemble Techniques:
+- Decision Tree
+- Random Forest
+- Gradient Boost
+- XG boost
+### Task 5: Check accuracy score on Test and Train set
+### Task 6: Visualise Result by ploting the graph of Predicted Values of Train and Test Set 
+### Task 7: Display Confusion Matrix and Classification Report of each Model before hyper-parameter tuning.
+### Task 8: Used Randomized Search-CV and Hperparameter tuning
+-  Tried to increase Test set Accuracy.
+- Display Confusion Matrix and Classification Report of Result after applying Hyper-parameter tuning.
+### Task 9: Prediction on TEST DATA and Check accuracy score of each model
+
+## Conclusion :
+Random Forset is giving best Accuracy on Test data, ie It is more accurate in predicting Red Wine Quality.
