@@ -1,14 +1,20 @@
 # Boston-Housing
 Predicting the median value of owner-occupied homes
 
-### Objective:
-
+## Objective:
 The objective of the dataset is to predict the median value of owner-occupied homes in 1000 USD's
 
-Dataset Link : https://www.kaggle.com/c/boston-dataset/data
+## About the Data
+This database contains 14 attributes. The target variable refers to the median value of owner-occupied homes in 1000 USD's
 
-### Evaluation Criteria
-Submissions are evaluated using RMSE Value
+## Evaluation Criteria
+Submissions are evaluated using Root-Mean-Squared-Error (RMSE).
+
+## Acknowledgement
+- This dataset has been sourced from the Kaggle
+- Dataset Link : https://www.kaggle.com/c/boston-dataset/data
+
+## Structure: 
 
 ### Task 1: Load the Data and Import Libraries
 * Load the dataset using pandas.
@@ -25,23 +31,16 @@ Submissions are evaluated using RMSE Value
 * Used boxplot()/jointplot() to check outliers in data
 
 ### Task 3: Splitting Training Dataset into Test and Train set 
-### Task 4: Train the model using RandomForest 
-             * Check accuracy and RMSE Value on Test and Train set
-             * Visualise Result by ploting the graph of Predicted Values of Train and Test Set            
-### Task 5: Used Hperparameter tunning in Random Forest:
-              * Tried to reduce RMSE 
-              * Tried to increase Test set Accuracy.
-### Task 6: Train the model using Gradient Boost 
-             * Check accuracy and RMSE Value on Test and Train set
-             * Visualise Result by ploting the graph of Predicted Values of Train and Test Set
-### Task 7: Used Hperparameter tunning in Gradient Boost:
-              * Tried to reduce RMSE 
-              * Tried to increase Test set Accuracy.              
-### Task 8: Train the model using XG Boost 
-             * Check accuracy and RMSE Value on Test and Train set
-             * Visualise Result by ploting the graph of Predicted Values of Train and Test Set             
-### Task 9: Used Hperparameter tunning in XG Boost:
-              * Tried to reduce RMSE 
-              * Tried to increase Test set Accuracy.              
-### Task 10: Prediction on TEST DATA and Check RMSE of each model
-### Conclusion : XG Boost is giving least RMSE on Test data, ie It is more accurate in predicting Median value of Owner-Occupied homes.
+### Task 4: Train the model using various Ensemble Techniques:
+- Random Forest
+- Gradient Boost
+- XG Boost
+### Task 5: Check accuracy and RMSE Value on Test and Train set
+### Task 6: Visualise Result by ploting the graph of Predicted Values of Train and Test Set            
+### Task 5: Used Hperparameter tunning  :
+- Tried to reduce RMSE 
+- Tried to increase Test set Accuracy.              
+### Task 6: Prediction on TEST DATA and Check RMSE of each model
+
+## Conclusion : 
+XG Boost is giving least RMSE on Test data, ie It is more accurate in predicting Median value of Owner-Occupied homes.
