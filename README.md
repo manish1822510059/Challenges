@@ -17,8 +17,14 @@ Place to hone your data science problem-solving skills !! time to conquer the pr
       - Algoorithms Used : RandomForest, Gradient Boost, XG Boost
       - Result : Least RMSE Value on Test DataSet is 3.079
     
-    * <a href="https://github.com/riya-dhama/Challenges/tree/master/Wine%20Quality"> Wine-Quality </a>: Predict Quality of Red-Wine
+    * <a href="https://github.com/riya-dhama/Challenges/tree/master/Wine%20Quality"> Wine-Quality </a>: 
+    Predict Quality of Red-Wine
        - Algorithm Used : Decision Tree, RandomForest, Gradient Boost, XG Boost
-       - Result : Best Accuracy score is 70% on Test Dataset
+       - Result : Best Accuracy score on Test Dataset is 70% 
+    
+    * <a href="https://github.com/riya-dhama/Challenges/tree/master/Survival%20of%20Patients"> Survival of Patients </a>: 
+    Predict the chances of Survival of a Patient after 1 year of treatment
+       - Algorithm Used : Logistic Regression, Decision Tree, RandomForest, Gradient Boost
+       - Result : Best F1 score on Test Dataset is 86.732 
     
       
