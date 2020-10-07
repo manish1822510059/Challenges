@@ -26,21 +26,21 @@ Submissions are evaluated using Root-Mean-Squared-Error (RMSE).
 * Check the null values
 * Get Statistical Overview using describe()
 
-### Task 2:  Visualize the Data(EDA)
+### Task 3:  Visualize the Data(EDA)
 * For this dataset, I used a histogram, correlation matrix, jointplot(), pairplot()  using Seaborn & Matplotlib to visualize the data
 * Used boxplot()/jointplot() to check outliers in data
 
-### Task 3: Splitting Training Dataset into Test and Train set 
-### Task 4: Train the model using various Ensemble Techniques:
+### Task 4: Splitting Training Dataset into Test and Train set 
+### Task 5: Train the model using various Ensemble Techniques:
 - Random Forest
 - Gradient Boost
 - XG Boost
-### Task 5: Check accuracy and RMSE Value on Test and Train set
-### Task 6: Visualise Result by ploting the graph of Predicted Values of Train and Test Set            
-### Task 5: Used Hperparameter tunning  :
+### Task 6: Check accuracy and RMSE Value on Test and Train set
+### Task 7: Visualise Result by ploting the graph of Predicted Values of Train and Test Set            
+### Task 8: Used Hperparameter tunning  :
 - Tried to reduce RMSE 
 - Tried to increase Test set Accuracy.              
-### Task 6: Prediction on TEST DATA and Check RMSE of each model
+### Task 9: Prediction on TEST DATA and Check RMSE of each model
 
 ## Conclusion : 
 XG Boost is giving least RMSE on Test data, ie It is more accurate in predicting Median value of Owner-Occupied homes.
