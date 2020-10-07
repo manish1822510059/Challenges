@@ -28,23 +28,23 @@ Submissions are evaluated using the F1 Score
 * Check the null values
 * Get Statistical Overview using describe()
 
-### Task 2:  Visualize the Data(EDA)
+### Task 3:  Visualize the Data(EDA)
 * For this dataset, I used a histogram, correlation matrix, jointplot(), pairplot(), countplot(), boxplot()  using Seaborn & Matplotlib to visualize the data
 * Pandas functions used to analyse data
 
-### Task 3: Splitting Training Dataset into Test and Train set 
-### Task 4: Train the model using Various Algorithms and Ensemble Techniques:
+### Task 4: Splitting Training Dataset into Test and Train set 
+### Task 5: Train the model using Various Algorithms and Ensemble Techniques:
 - Logistic Regression
 - Decision Tree
 - Random Forest
 - Gradient Boost
-### Task 5: Check accuracy score on Test and Train set
-### Task 6: Display Confusion Matrix and Classification Report of each Model (check F1 Score) before Hyper-parameter tuning.
-### Task 7: Used  Hperparameter tuning
+### Task 6: Check accuracy score on Test and Train set
+### Task 7: Display Confusion Matrix and Classification Report of each Model (check F1 Score) before Hyper-parameter tuning.
+### Task 8: Used  Hperparameter tuning
 - Tried to increase Test set Accuracy.
 - Tried to Increase F1 Score
 - Display Confusion Matrix and Classification Report of Result (check F1 Score) after applying Hyper-parameter tuning.
-### Task 8: Prediction on TEST DATA and Check accuracy score of each model
+### Task 9: Prediction on TEST DATA and Check accuracy score of each model
 
 ## Conclusion :
 Gradient Boost after applying Hyper-parameter tunning gives best result in predicting the chances of Survival of a Patient after 1 year of treatment.
