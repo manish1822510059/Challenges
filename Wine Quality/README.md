@@ -33,23 +33,23 @@ Dataset Link : https://archive.ics.uci.edu/ml/datasets/wine+quality
 * Check the null values
 * Get Statistical Overview using describe()
 
-### Task 2:  Visualize the Data(EDA)
+### Task 3:  Visualize the Data(EDA)
 * For this dataset, I used a histogram, correlation matrix, jointplot(), pairplot(), countplot(), boxplot()  using Seaborn & Matplotlib to visualize the data
 * Pandas functions used to analyse data
 
-### Task 3: Splitting Training Dataset into Test and Train set 
-### Task 4: Train the model using Various Algorithms and Ensemble Techniques:
+### Task 4: Splitting Training Dataset into Test and Train set 
+### Task 5: Train the model using Various Algorithms and Ensemble Techniques:
 - Decision Tree
 - Random Forest
 - Gradient Boost
 - XG boost
-### Task 5: Check accuracy score on Test and Train set
-### Task 6: Visualise Result by ploting the graph of Predicted Values of Train and Test Set 
-### Task 7: Display Confusion Matrix and Classification Report of each Model before hyper-parameter tuning.
-### Task 8: Used Randomized Search-CV and Hperparameter tuning
+### Task 6: Check accuracy score on Test and Train set
+### Task 7: Visualise Result by ploting the graph of Predicted Values of Train and Test Set 
+### Task 8: Display Confusion Matrix and Classification Report of each Model before hyper-parameter tuning.
+### Task 9: Used Randomized Search-CV and Hperparameter tuning
 -  Tried to increase Test set Accuracy.
 - Display Confusion Matrix and Classification Report of Result after applying Hyper-parameter tuning.
-### Task 9: Prediction on TEST DATA and Check accuracy score of each model
+### Task 10: Prediction on TEST DATA and Check accuracy score of each model
 
 ## Conclusion :
 Random Forset is giving best Accuracy on Test data, ie It is more accurate in predicting Red Wine Quality.
